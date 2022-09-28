@@ -14,7 +14,15 @@ body {
 }
 
 main {
-    padding:0 30 px;
+    padding: 0 20px;
+}
+
+h1 {
+    margin: 30px 0 10px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #436075;
+    
 }
 
 .logocontainer {
@@ -31,7 +39,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px;
+    margin: 20px 0;
 }
 
 .mainbtn{
@@ -43,7 +51,9 @@ main {
     border-radius: 10px;
     border-style: none;
     box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.06);
+    margin: 10px;
 }
+
 
 a:link {
     text-decoration: none;
@@ -55,17 +65,72 @@ a:link {
 
 
 .petmenu {
-    margin: 20px 10px 10px;
+    margin: 20px 0px 20px;
     display: flex;
     justify-content: space-around;   
     align-items: center;
+
 
 }
 
 .peticon { 
     height: 50px;
+    margin: 8px;
 }
 
 .inactive {
     opacity: 50%;
+}
+
+
+
+
+
+.menu {
+    margin:0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 64px;
+    width: 100%;
+    background-color:#F8F4F2 ;
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 6%)
+}
+
+.menuitem {
+    height: 40px;
+}
+
+.active {
+    stroke-width: 4px;
+}
+
+table {
+    width:100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #436075;
+    margin-bottom:24px;
+}
+
+.medname {
+    padding-right:16px;
+    display: flex;
+}
+
+.medinfo {
+    font-weight: 700;
+    
+}
+
+hr {
+    background-color: #436075;
+    height: 0.1px;
+    border-width: 0;
+    margin: 24px 0;
+}
+
+.medaction {
+
 }
