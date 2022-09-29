@@ -88,7 +88,7 @@ a:link {
 
 .menu {
     margin:0;
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0;
     height: 64px;
@@ -98,13 +98,15 @@ a:link {
 }
 
 .menuitem {
-    height: 40px;
+    height: 36px;
 }
 
-.active {
-    stroke-width: 4px;
-}
 
+
+
+
+
+/*
 table {
     width:100%;
     font-weight: 400;
@@ -113,7 +115,10 @@ table {
     color: #436075;
     margin-bottom:24px;
 }
+*/
 
+
+/*
 .medname {
     padding-right:16px;
     display: flex;
@@ -123,6 +128,7 @@ table {
     font-weight: 700;
     
 }
+*/
 
 hr {
     background-color: #436075;
@@ -131,6 +137,29 @@ hr {
     margin: 24px 0;
 }
 
-.medaction {
-
+.medcta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.content {
+    margin-bottom:72px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #436075;
+    margin-bottom:72px;
+}
+
+
+.profile-pic {
+    border-radius: 35px;
+    display: block;
+    margin: 0 auto 72px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+
